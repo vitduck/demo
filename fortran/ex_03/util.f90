@@ -1,0 +1,13 @@
+MODULE UTIL 
+    
+CONTAINS 
+    SUBROUTINE PRINT_SCALAR( a ) 
+        IMPLICIT NONE 
+
+        ! dummy argument
+        REAL(KIND=8), INTENT(IN) :: a 
+
+        PRINT *, a
+    END SUBROUTINE PRINT_SCALAR
+
+END MODULE UTIL
